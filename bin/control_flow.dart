@@ -20,4 +20,6 @@ void main(List<String> args) {
   if (nullValue == null) {
     print("The value is null");
   }
+
+  assert(nullValue != null);
 }
